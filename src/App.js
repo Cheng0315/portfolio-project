@@ -18,6 +18,7 @@ class App extends React.Component {
         <NavBar/>
         <AboutMe/>
         <h1 className='projects'>Technical Projects</h1>
+        <div className='title-hr'></div>
         <Project1/>
         <HR/>
         <Project2/>

@@ -4,7 +4,7 @@ const HR = () => {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-lg-8 offset-lg-2'>
+        <div className='col-lg-10 offset-lg-1'>
           <hr/>
         </div>
       </div>
