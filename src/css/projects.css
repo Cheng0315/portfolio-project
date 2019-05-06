@@ -1,6 +1,6 @@
 .project {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .project-img img{
@@ -8,7 +8,11 @@
   max-height:100%;
 }
 
-.tech-projects {
+.projects {
   text-align: center;
   margin-top: 60px;
+}
+
+hr {
+  margin-bottom: 80px;
 }
