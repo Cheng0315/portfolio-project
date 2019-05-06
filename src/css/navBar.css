@@ -29,7 +29,7 @@ nav {
   display: inline-block;
 }
 
-svg {
+.navbar-brand svg {
   color: #ff0047;
 }
 
