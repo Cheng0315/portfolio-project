@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 class NavBar extends React.Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className='fixed-top'>
         <div className='container'>
           <Navbar.Brand href="#home">Cheng Vue</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
