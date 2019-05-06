@@ -5,12 +5,13 @@ nav a {
   font-size: 14px;
 }
 
-.brand-sub-heading {
-  font-weight: 500;
+.title {
+  font-weight: 400;
   font-size: 10px;
 }
 
 .name {
+
   font-size: 20px;
   margin-bottom: -5px;
 }
@@ -21,4 +22,17 @@ nav a {
 
 nav {
   border-bottom: 1px solid white!important;
+}
+
+.navbar-brand > a {
+  margin-right: 7px;
+  display: inline-block;
+}
+
+svg {
+  color: #ff0047;
+}
+
+.navbar-brand a{
+  text-decoration: none;
 }

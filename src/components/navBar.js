@@ -2,15 +2,20 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import '../css/navBar.css' 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class NavBar extends React.Component {
   render() {
     return (
       <Navbar bg="dark" expand="lg" className='fixed-top'>
         <div className='container'>
-          <a href="/" className='navbar-brand'>
-            <div className='name'>CHENG VUE</div><div className='brand-sub-heading'>FULL STACK WEB DEVELOPER</div>
-          </a>
+          <div className='navbar-brand'>
+            <a href="/" className='navbar-icon'><FontAwesomeIcon icon="code-branch" size="3x"/></a>
+            <a href="/" className='info'>
+              <div className='name'>CHENG VUE</div>
+              <div className='title'>FULL STACK WEB DEVELOPER</div>
+            </a>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
