@@ -1,0 +1,24 @@
+nav a {
+  color: white !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.brand-sub-heading {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.navbar{
+  background-color: transparent !important;
+}
+
+nav {
+  border-bottom: 1px solid white!important;
+}

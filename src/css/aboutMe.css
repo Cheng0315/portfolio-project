@@ -1,7 +1,14 @@
 .about-me {
   height: 100%; 
+  filter: brightness(40%) blur(8px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('https://ak5.picdn.net/shutterstock/videos/26581145/thumb/1.jpg')
+  background-image: url('https://ak5.picdn.net/shutterstock/videos/26581145/thumb/1.jpg');
+  transform: scale(1.03);
+}
+
+.about-me-container {
+  overflow: hidden;
+  height: 100%; 
 }
