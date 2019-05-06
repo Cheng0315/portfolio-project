@@ -16,7 +16,7 @@ class NavBar extends React.Component {
               <div className='title'>FULL STACK WEB DEVELOPER</div>
             </a>
           </div>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="#home">HOME</Nav.Link>
@@ -25,7 +25,6 @@ class NavBar extends React.Component {
               <Nav.Link href="#link">CONTACT</Nav.Link>
               <Nav.Link href="#link">RESUME</Nav.Link>
             </Nav>
-            
           </Navbar.Collapse>
         </div>
       </Navbar>
