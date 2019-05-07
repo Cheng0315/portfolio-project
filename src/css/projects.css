@@ -24,17 +24,12 @@
   flex-direction: column;
 }
 
-hr {
-  margin-bottom: 80px;
-}
-
 .title-hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
   margin: auto;
-  margin-bottom: 70px;
   padding: 0;
   width: 290px;
   opacity: 0.4;
@@ -43,7 +38,6 @@ hr {
 .project .btn {
   background-color: #ff0047;
   color: white !important;
-  transition: 0.2s ease;
 }
 
 .project .btn:hover {
@@ -152,12 +146,16 @@ hr {
   }
 
   .project {
-    margin-top: 60px !important;
-    margin-bottom: 75px !important;
+    margin-top: 60px;
+    margin-bottom: 55px ;
   }
 
   .projects {
-    margin-top: 45px;
+    margin-top: 60px;
+  }
+
+  .project-3 {
+    margin-bottom: 70px ;
   }
 }
 
@@ -178,10 +176,32 @@ hr {
     opacity: 1;
     transform: scale(1.03, 1.03);
   }
+
+  .project-info h3 {
+    margin-top: -4px;
+    margin-bottom: 5px;
+  }
 }
 
 @media (min-width: 1200px) {
   .project .btn {
     width: 120px !important;
+  }
+
+  .projects {
+    margin-top: 100px;
+  }
+
+  .project {
+    margin-top: 80px;
+    margin-bottom: 80px ;
+  }
+
+  .project-3 {
+    margin-bottom: 110px ;
+  }
+
+  .project-1 {
+    margin-top: 60px ;
   }
 }

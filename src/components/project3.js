@@ -5,7 +5,7 @@ class Project3 extends React.Component {
   
   render() {
     return (
-      <div className='project container'>
+      <div className='project container project-3'>
         <h3 className='sm-project-title text-center'>Sinix</h3>
         <div className='row'>
           <div className='project-img col-lg-5 offset-lg-1'>

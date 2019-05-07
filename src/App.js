@@ -4,6 +4,7 @@ import AboutMe from './components/aboutMe'
 import Project1 from './components/project1'
 import Project2 from './components/project2'
 import Project3 from './components/project3'
+import Skills from './components/skills'
 import HR from './components/hr'
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -24,6 +25,7 @@ class App extends React.Component {
         <Project2/>
         <HR/>
         <Project3/>
+        <Skills/>
       </div>
     );
   }
