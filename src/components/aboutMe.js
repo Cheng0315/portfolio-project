@@ -6,7 +6,7 @@ class AboutMe extends React.Component {
     return (
       <div className='about-me-container'>
         <img src='https://ak5.picdn.net/shutterstock/videos/26581145/thumb/1.jpg'/>
-        <div className='about-me'>
+        <div className='about-me container'>
           <h1>Full Stack Web Developer</h1>
           <p>Full Stack Web Developer with a passion for building innovative and 
             user friendly web application. With experience in Ruby on Rails, JavaScript, 

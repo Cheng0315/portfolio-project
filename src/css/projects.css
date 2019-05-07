@@ -8,6 +8,7 @@
   max-height:100%;
   -webkit-box-shadow: 0 0 6px rgb(187, 183, 183);
   box-shadow: 0 0 10px rgb(173, 173, 173);
+  transition: 0.2s ease;
 }
 
 .projects {
@@ -42,6 +43,13 @@ hr {
 .project .btn {
   background-color: #ff0047;
   color: white !important;
+  transition: 0.2s ease;
+}
+
+.project .btn:hover {
+  background-color: white;
+  color: #ff0047 !important;
+  border: 1px solid #ff0047;
 }
 
 .projects-links {
@@ -147,6 +155,10 @@ hr {
     margin-top: 60px !important;
     margin-bottom: 75px !important;
   }
+
+  .projects {
+    margin-top: 45px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -160,6 +172,11 @@ hr {
 
   .project .btn {
     width: 100px;
+  }
+
+  .project-img img:hover {
+    opacity: 1;
+    transform: scale(1.03, 1.03);
   }
 }
 
