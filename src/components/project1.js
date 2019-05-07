@@ -14,12 +14,13 @@ class Project1 extends React.Component {
           <div className='project-content col-lg-5'>
             <div className='project-info'>
               <h3 className='ls-project-title text-center'>Ichiban</h3>
-              <div>Restaurant web application where admins can create, read, update, and delete dishes</div>
-              <div>Technologies used: React, Redux, Javascript, Ruby on Rails, Rails API,  HTML5, CSS3, Bootstrap 4, and Google Map API </div>
+              <div>Restaurant web application where admins can create, read, update, and delete dishes.</div>
+              <div>Technologies used: React, Redux, Javascript, Rails API, HTML5, CSS3, Bootstrap 4, and Google Map API. </div>
             </div>
             <div className='projects-links'>
-              <button type="button" className="live-site btn btn-sm btn-danger ">Live Site</button>
-              <button type="button" className="github btn btn-sm btn-danger">Github</button>
+              <a href='/' target="_blank" className="live-site btn btn-sm">Live Site</a>
+              <a href='https://github.com/Cheng0315/ichiban-fresno' target="_blank" className="github btn btn-sm">Github</a>
+              <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
             </div>
           </div>
         </div> 

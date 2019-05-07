@@ -15,12 +15,13 @@ class Project2 extends React.Component {
             <div className='project-content col-lg-5'>
               <div className='project-info'>
                 <h3 className='ls-project-title text-center'>Swift-Kart</h3>
-                <div>E-commerce application where users can buy and sell items</div>
-                <div>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth and Rails API</div>
+                <div>E-commerce application where users can buy and sell items.</div>
+                <div>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth and Rails API.</div>
               </div>
               <div className='projects-links'>
-                <button type="button" className="live-site btn btn-sm btn-danger ">Live Site</button>
-                <button type="button" className="github btn btn-sm btn-danger">Github</button>
+                <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm">Live Site</a>
+                <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm">Github</a>
+                <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
               </div>
             </div>
           </div>
@@ -30,12 +31,13 @@ class Project2 extends React.Component {
             <div className='project-content col-lg-5 offset-lg-1'>
               <div className='project-info'>
                 <h3 className='text-center'>Swift-Kart</h3>
-                <div>E-commerce application where users can buy and sell items</div>
-                <div>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth and Rails API</div>
+                <div>E-commerce application where users can buy and sell items.</div>
+                <div>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, and OAuth.</div>
               </div>
               <div className='projects-links'>
-                <button type="button" className="live-site btn btn-sm btn-danger ">Live Site</button>
-                <button type="button" className="github btn btn-sm btn-danger">Github</button>
+                <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm">Live Site</a>
+                <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm">Github</a>
+                <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
               </div>
             </div>
             <div className='project-img col-lg-5'>

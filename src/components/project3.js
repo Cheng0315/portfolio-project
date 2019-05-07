@@ -14,12 +14,13 @@ class Project3 extends React.Component {
           <div className='project-content col-lg-5'>
             <div className='project-info'>
               <h3 className='ls-project-title text-center'>Sinix</h3>
-              <div>Web application that generates the structures of a Sinatra Web Application</div>
-              <div>Technologies Used: Ruby, Sinatra, HTML5, CSS3, Bootstrap 4</div>
+              <div>Web application that generates the structures of a Sinatra Web Application.</div>
+              <div>Technologies Used: Ruby, Sinatra, HTML5, CSS3, Bootstrap 4.</div>
             </div>
             <div className='projects-links'>
-              <button type="button" className="live-site btn btn-sm btn-danger ">Live Site</button>
-              <button type="button" className="github btn btn-sm btn-danger">Github</button>
+              <a href='https://sinix-app.herokuapp.com/' target="_blank" className="live-site btn btn-sm">Live Site</a>
+              <a href='https://github.com/Cheng0315/sinix' target="_blank" className="github btn btn-sm">Github</a>
+              <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
             </div>
           </div>
         </div> 
