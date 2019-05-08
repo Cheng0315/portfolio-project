@@ -9,7 +9,7 @@ class Project1 extends React.Component {
         <h3 className='sm-project-title text-center'>Ichiban</h3>
         <div className='row'>
           <div className='project-img col-lg-5 offset-lg-1'>
-            <a href='/'><img src='https://cdn.vox-cdn.com/thumbor/C37I0qrg7W3ECwMAjHh-IRB2fqs=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/61911425/acastro_180329_1777_amazon_0001.0.jpg'/></a>
+            <a href='/'><img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/11407135_869083649829783_6563221059322769096_n.jpg?_nc_cat=107&_nc_ht=scontent-sjc3-1.xx&oh=a6c3d927876283e61646aaac5bde9482&oe=5D5F2F1C'/></a>
           </div>
           <div className='project-content col-lg-5'>
             <div className='project-info'>

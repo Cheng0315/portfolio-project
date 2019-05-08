@@ -10,7 +10,7 @@ class Project2 extends React.Component {
         <div className='sm-sc-project'>
           <div className='row'>
             <div className='project-img col-lg-5 offset-lg-1'>
-            <a href='https://swift-kart-app.herokuapp.com' target="_blank"><img src='https://cdn.vox-cdn.com/thumbor/C37I0qrg7W3ECwMAjHh-IRB2fqs=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/61911425/acastro_180329_1777_amazon_0001.0.jpg'/></a>
+            <a href='https://swift-kart-app.herokuapp.com' target="_blank"><img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/59644330_287304338844997_9086939823716958208_o.jpg?_nc_cat=105&_nc_ht=scontent-sjc3-1.xx&oh=889836d15fffb7099798940c845ffb07&oe=5D64ECC0'/></a>
             </div>
             <div className='project-content col-lg-5'>
               <div className='project-info'>
@@ -41,7 +41,7 @@ class Project2 extends React.Component {
               </div>
             </div>
             <div className='project-img col-lg-5'>
-            <a href='https://swift-kart-app.herokuapp.com' target="_blank"><img src='https://cdn.vox-cdn.com/thumbor/C37I0qrg7W3ECwMAjHh-IRB2fqs=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/61911425/acastro_180329_1777_amazon_0001.0.jpg'/></a>
+            <a href='https://swift-kart-app.herokuapp.com' target="_blank"><img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/59644330_287304338844997_9086939823716958208_o.jpg?_nc_cat=105&_nc_ht=scontent-sjc3-1.xx&oh=889836d15fffb7099798940c845ffb07&oe=5D64ECC0'/></a>
             </div>
           </div>
         </div> 
