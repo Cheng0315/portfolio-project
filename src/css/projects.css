@@ -12,8 +12,6 @@
 }
 
 .projects {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 700;
   font-size: 30px;
   text-align: center;
 }
@@ -50,6 +48,11 @@
   margin-top: auto;
 }
 
+.projects-links a {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+}
+
 .live-site {
   margin-right: 4px;
 }
@@ -64,23 +67,14 @@
 }
 
 .project h3 {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 700;
   font-size: 25px;
 }
 
-
-.project .project-info {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 400;
+.project p {
   font-size: 16px;
 }
 
-.about-me p {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 400;
-  font-size: 16px;
-}
+
 
 @media (max-width: 425px) {
   .projects-links {
@@ -140,7 +134,8 @@
   }
 
   .project-img img{
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 13px;
   }
 }
 

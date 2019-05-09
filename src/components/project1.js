@@ -14,8 +14,8 @@ class Project1 extends React.Component {
           <div className='project-content col-lg-5'>
             <div className='project-info'>
               <h3 className='ls-project-title text-center'>Ichiban</h3>
-              <div>Restaurant web application where admins can create, read, update, and delete dishes.</div>
-              <div>Technologies used: React, Redux, Javascript, Rails API, HTML5, CSS3, Bootstrap 4, and Google Map API. </div>
+              <p>Restaurant web application where admins can create, read, update, and delete dishes.</p>
+              <p>Technologies used: React, Redux, Javascript, Rails API, HTML5, CSS3, Bootstrap 4, and Google Map API. </p>
             </div>
             <div className='projects-links'>
               <a href='/' target="_blank" className="live-site btn btn-sm">Live Site</a>

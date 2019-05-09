@@ -2,3 +2,15 @@ html, body, #app, #root{
   height: 100%;
   margin: 0;
 }
+
+.projects, .about-me h1,  .technical-skills h6, .technical-skills h1, .project h3, .about-me h1{
+  color: #444444;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+}
+
+.project p, .about-me p{
+  color: #444444;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+}

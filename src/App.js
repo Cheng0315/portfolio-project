@@ -6,6 +6,7 @@ import Project2 from './components/project2'
 import Project3 from './components/project3'
 import Skills from './components/skills'
 import AboutMe from './components/aboutMe'
+import Footer from './components/footer'
 import HR from './components/hr'
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -29,6 +30,7 @@ class App extends React.Component {
         <Project3/>
         <Skills/>
         <AboutMe/>
+        <Footer/>
       </div>
     );
   }

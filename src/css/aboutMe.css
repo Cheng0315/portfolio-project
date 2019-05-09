@@ -13,14 +13,33 @@
   margin-bottom: 15px;
 }
 
+.social a {
+  transition: 0.2s ease;
+}
+
+.social a:hover {
+  opacity: 1;
+  transform: scale(1.13, 1.13);
+}
+
 .social {
   display: flex;
   justify-content: center;
 }
 
+.social .fa-linkedin {
+  color: #0073b0;
+}
+
+.social .fa-github {
+  color: #24292e;
+}
+
+.social .fa-blogger {
+  color: #f06a35;
+}
+
 .about-me h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 30px;
 }
 
@@ -33,20 +52,13 @@
   margin-right: 6px;
 }
 
-.about-me h1, .about-me p {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 700;
-}
-
-.about-me p {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 400;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .about-me h1 {
     text-align: center;
   }
+}
+
+@media (max-width: 767px) {
 
   .about-me {
     display: flex;

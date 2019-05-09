@@ -15,8 +15,8 @@ class Project2 extends React.Component {
             <div className='project-content col-lg-5'>
               <div className='project-info'>
                 <h3 className='ls-project-title text-center'>Swift-Kart</h3>
-                <div>E-commerce application where users can buy and sell items.</div>
-                <div>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth and Rails API.</div>
+                <p className='project-description'>E-commerce application where users can buy and sell items.</p>
+                <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth and Rails API.</p>
               </div>
               <div className='projects-links'>
                 <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm">Live Site</a>
@@ -31,8 +31,8 @@ class Project2 extends React.Component {
             <div className='project-content col-lg-5 offset-lg-1'>
               <div className='project-info'>
                 <h3 className='text-center'>Swift-Kart</h3>
-                <div>E-commerce application where users can buy and sell items.</div>
-                <div>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, and OAuth.</div>
+                <p className='project-description'>E-commerce application where users can buy and sell items.</p>
+                <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, and OAuth.</p>
               </div>
               <div className='projects-links'>
                 <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm">Live Site</a>
