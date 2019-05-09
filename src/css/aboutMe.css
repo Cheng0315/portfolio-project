@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.about-me img-and-social{
+.about-me .img-and-social{
   display: flex;
   flex-direction: column;
 }
@@ -10,8 +10,12 @@
 .img-and-social > img {
   border-radius: 50%;
   object-fit: cover;
-  width:140px;
-  height:140px;
+  margin-bottom: 15px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
 }
 
 .about-me h1 {
@@ -20,24 +24,103 @@
   font-size: 30px;
 }
 
-.about-me-container {
-  padding: 30px 0;
-} 
+.fa-phone, .fa-envelope {
+  margin-right: 5px;
+}
+
+.fa-map-marker-alt {
+  margin-left: 3px;
+  margin-right: 6px;
+}
 
 @media (max-width: 425px) {
 }
 
 @media (min-width: 426px) and (max-width: 991px) {
+  .img-and-social > img {
+    width:140px;
+    height:140px;
+  }
+
+  .social {
+    width:140px;
+  }
+  
+  .about-me {
+    justify-content: center;
+  }
+
+  .img-and-social {
+    flex-basis: 24%;
+  }
+
+  .about-me-info {
+    flex-basis: 66%;
+  }
+
+  .about-me-container {
+    padding: 62px 0;
+  } 
+
+  .social a {
+    margin: 0 5px;
+  }
 }
 
 @media (max-width: 991px) {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .about-me {
+    justify-content: center;
+  }
+
+  .img-and-social {
+    flex-basis: 18%;
+  }
+
+  .about-me-info {
+    flex-basis: 73%;
+  }
+
+  .about-me-container {
+    padding: 60px 0;
+  } 
+
+  .social a {
+    margin: 0 5px;
+  }
 }
 
 @media (min-width: 992px) {
+  .img-and-social > img {
+    width:140px;
+    height:140px;
+  }
+
+  .social {
+    width:140px;
+  }
 }
 
 @media (min-width: 1200px) {
+  .about-me {
+    justify-content: center;
+  }
+
+  .img-and-social {
+    flex-basis: 16%;
+  }
+
+  .about-me-info {
+    flex-basis: 77%;
+  }
+
+  .about-me-container {
+    padding: 105px 0;
+  } 
+
+  .social a {
+    margin: 0 5px;
+  }
 }

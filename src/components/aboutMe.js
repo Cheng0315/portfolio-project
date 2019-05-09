@@ -24,20 +24,19 @@ class AboutMe extends React.Component {
           <div className='about-me-info'>
             <h1>About Me</h1>
             <p>Hello there! My name is Cheng Vue and I am a Full Stack Web Developer.</p>
-            <p>I enjoy building functional, innovative and user friendly web application. 
-                I discovered web development 
-                through my interest in music making using software such as Pro Tools and Ableton Live. 
-                With experience in Ruby on Rails, JavaScript, 
-                and React and a background in music education, 
-                An eager learner, I bring strong skills in team-building and project management 
-                that help further advance company objectives.
+            <p>I discovered web development through my interest in making music using software such as Pro Tools and Ableton Live. 
+              With experience in Ruby on Rails, JavaScript, 
+              and React, I enjoy building functional, innovative and user friendly web application for clients.</p>
+            <p>Nowadays I code all my projects from scratch to deliver unique experiences to every company.</p>
+            <p>Like many other people, I enjoy spending my free time learning new technologies and 
+              increasing my knowledge of Web Development as well as building new and challenging projects.
             </p>
             <div className='contact'>
-            <h1>Contact</h1>
-            <div className='location'>Location: San Francisco Bay Area</div>
-            <div className='email'>Email: csalvue@gmail.com</div>
-            <div className='phone'>Phone: (559) 286-6435</div>
-          </div>
+              <h1>Contact</h1>
+                <p className='phone'><FontAwesomeIcon icon='phone' className='fa-rotate-90'/>  Phone: (559) 286-6435</p>
+                <p className='email'><FontAwesomeIcon icon='envelope'/>  Email: csalvue@gmail.com</p>
+                <p className='location'><FontAwesomeIcon icon='map-marker-alt'/> Location: San Francisco Bay Area</p>
+            </div>
           </div>
         </div>
       </div>

@@ -9,10 +9,10 @@ import AboutMe from './components/aboutMe'
 import HR from './components/hr'
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
+import { faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faCodeBranch, fab)
+library.add(faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, fab)
 
 class App extends React.Component {
   render() {
