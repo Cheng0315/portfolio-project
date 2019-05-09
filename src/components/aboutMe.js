@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className='about-me-container container'>
+      <div className='container'>
+      <div className='about-me-container'>
         <div className='about-me'>
           <div className='img-and-social'>
             <img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/11407135_869083649829783_6563221059322769096_n.jpg?_nc_cat=107&_nc_ht=scontent-sjc3-1.xx&oh=a6c3d927876283e61646aaac5bde9482&oe=5D5F2F1C'/>
@@ -39,6 +40,7 @@ class AboutMe extends React.Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     )
   }

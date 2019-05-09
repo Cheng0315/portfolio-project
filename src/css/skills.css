@@ -55,13 +55,19 @@
   }
 }
 
+@media (max-width: 575px) {
+  .dev-logos-container {
+    padding-bottom: 20px;
+  }
+}
+
 @media (max-width: 767px) {
   .dev-logos-container {
     padding-top: 30px;
   }
 
   .skills-header {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 }
 
@@ -82,7 +88,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .skills-header {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   .dev-logos{
@@ -143,6 +149,6 @@
   }
 
   .dev-logos-container {
-    padding-top: 55px;
+    padding: 55px 0 40px;
   }
 } 
