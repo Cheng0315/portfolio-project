@@ -1,23 +1,25 @@
 import React from 'react';
 import NavBar from './components/navBar';
-import AboutMe from './components/aboutMe'
+import Intro from './components/intro'
 import Project1 from './components/project1'
 import Project2 from './components/project2'
 import Project3 from './components/project3'
 import Skills from './components/skills'
+import AboutMe from './components/aboutMe'
 import HR from './components/hr'
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faCodeBranch)
+library.add(faCodeBranch, fab)
 
 class App extends React.Component {
   render() {
     return (
       <div id="app">
         <NavBar/>
-        <AboutMe/>
+        <Intro/>
         <h1 className='projects'>Technical Projects</h1>
         <div className='title-hr'></div>
         <Project1/>
@@ -26,6 +28,7 @@ class App extends React.Component {
         <HR/>
         <Project3/>
         <Skills/>
+        <AboutMe/>
       </div>
     );
   }

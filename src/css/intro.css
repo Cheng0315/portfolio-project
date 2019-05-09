@@ -1,0 +1,31 @@
+.intro-container img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  width: 100%;
+  filter: brightness(40%) blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.03);
+}
+
+.intro-container {
+  overflow: hidden;
+  height: 100%; 
+}
+
+.intro-container .intro-content{
+  color: white !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-content h1{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+  font-size: 50px;
+}
