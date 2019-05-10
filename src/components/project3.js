@@ -9,12 +9,12 @@ class Project3 extends React.Component {
       <div className='project container project-3'>
         <h3 className='sm-project-title text-center'>Sinix</h3>
         <div className='row'>
-          <Fade top left delay={400} distance={'60px'}>
+          <Fade left delay={400} distance={'60px'}>
             <div className='project-img col-lg-5 offset-lg-1'>
               <a href='https://sinix-app.herokuapp.com/' target="_blank"><img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/59754012_287305848844846_2969365308407545856_o.jpg?_nc_cat=106&_nc_ht=scontent-sjc3-1.xx&oh=2a32ff11843a7b492692f7492417de88&oe=5D77AAEB'/></a>
             </div>
           </Fade>
-          <Fade bottom right delay={400} distance={'60px'}>
+          <Fade right delay={400} distance={'60px'}>
             <div className='project-content col-lg-5'>
               <div className='project-info'>
                 <h3 className='ls-project-title text-center'>Sinix</h3>

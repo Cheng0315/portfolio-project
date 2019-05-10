@@ -16,6 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="app">
+        <div id='space'></div>
         <NavBar/>
         <Intro/>
         <ProjectsContainer/>

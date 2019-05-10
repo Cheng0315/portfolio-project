@@ -1,7 +1,5 @@
-
-
 .intro-container {
-  overflow: hidden;
+  display: flex;
   background-image: url('https://cdn.pixabay.com/photo/2016/03/27/19/00/coffee-1283672_960_720.jpg');
   height: 100%; 
   background-position: center;
@@ -10,6 +8,7 @@
 }
 
 .intro-container:before{
+  display: flex;
   content: '';
   position: absolute;
   top: 0;
@@ -20,11 +19,10 @@
 }
 
 .intro-container .intro-content{
+  align-self: center;
   color: white !important;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  margin-top: 40px;
 }
 
 .intro-content h1{
@@ -80,5 +78,19 @@
   .intro-links .btn {
     width: 100%;
     margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .intro-container .intro-content{
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro-container .intro-content{
+    padding-top: 0;
+    margin-top: -16px;
   }
 }
