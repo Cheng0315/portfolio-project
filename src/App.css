@@ -75,3 +75,18 @@ html, body, #app, #root{
 		transform: translateY(0);
 	}
 }
+
+/*** PROJECTS ANIMATION ***/
+
+.projects-container h1 {
+  animation: projectsTitleFadeIn 1s;
+}
+
+@keyframes projectsTitleFadeIn {
+  from {
+		transform: scale(0.6);
+	}
+	to {
+		transform: scale(1);
+	}
+}
