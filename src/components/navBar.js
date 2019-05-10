@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../css/navBar.css' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Fade from 'react-reveal/Fade';
 
 class NavBar extends React.Component {
 
@@ -40,11 +41,21 @@ class NavBar extends React.Component {
           <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <AnchorLink href='#intro' className='nav-link'>HOME</AnchorLink>
-              <AnchorLink href='#projects-container' offset='70' className='nav-link'>PROJECTS</AnchorLink>
-              <AnchorLink href='#technical-skills' offset='70' className='nav-link'>SKILLS</AnchorLink>
-              <AnchorLink href='#contact' offset='70' className='nav-link'>CONTACT</AnchorLink>
-              <Nav.Link href="#link">RESUME</Nav.Link>
+              <Fade top distance={'25px'}> 
+                <AnchorLink href='#intro' className='nav-link'>HOME</AnchorLink>
+              </Fade>
+              <Fade top delay={100} distance={'25px'}> 
+                <AnchorLink href='#projects-container' offset='70' className='nav-link'>PROJECTS</AnchorLink>
+              </Fade>
+              <Fade top delay={200} distance={'25px'}> 
+                <AnchorLink href='#technical-skills' offset='70' className='nav-link'>SKILLS</AnchorLink>
+              </Fade>
+              <Fade top delay={300} distance={'25px'}> 
+                <AnchorLink href='#contact' offset='70' className='nav-link'>CONTACT</AnchorLink>
+              </Fade>
+              <Fade top delay={400} distance={'25px'}> 
+                <Nav.Link href="#link">RESUME</Nav.Link>
+              </Fade>
             </Nav>
           </Navbar.Collapse>
         </div>

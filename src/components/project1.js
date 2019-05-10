@@ -9,12 +9,12 @@ class Project1 extends React.Component {
       <div className='project container project-1'>
         <h3 className='sm-project-title text-center'>Ichiban</h3>
         <div className='row'>
-          <Fade left delay={600} distance={'100px'}>
+          <Fade left delay={600} distance={'60px'}>
             <div className='project-img col-lg-5 offset-lg-1'>
               <a href='/'><img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/11407135_869083649829783_6563221059322769096_n.jpg?_nc_cat=107&_nc_ht=scontent-sjc3-1.xx&oh=a6c3d927876283e61646aaac5bde9482&oe=5D5F2F1C'/></a>
             </div>
           </Fade>
-          <Fade right delay={600} distance={'100px'}>
+          <Fade right delay={600} distance={'60px'}>
             <div className='project-content col-lg-5'>
               <div className='project-info'>
                 <h3 className='ls-project-title text-center'>Ichiban</h3>

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/aboutMe.css' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Fade from 'react-reveal/Fade';
 
 class AboutMe extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class AboutMe extends React.Component {
       <div id='contact' className='container'>
       <div className='about-me-container'>
         <div className='about-me'>
+        <Fade left cascade delay={400} duration={700} distance={'10px'}> 
           <div className='img-and-social'>
             <img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/11407135_869083649829783_6563221059322769096_n.jpg?_nc_cat=107&_nc_ht=scontent-sjc3-1.xx&oh=a6c3d927876283e61646aaac5bde9482&oe=5D5F2F1C'/>
             <div className='social'>
@@ -22,6 +24,8 @@ class AboutMe extends React.Component {
               </a>
             </div>
           </div>
+          </Fade>
+          <Fade right cascade delay={400} duration={700} distance={'10px'}>
           <div className='about-me-info'>
             <h1>About Cheng</h1>
             <p>Hello there! My name is Cheng Vue and I am a Full Stack Web Developer.</p>
@@ -39,6 +43,7 @@ class AboutMe extends React.Component {
                 <p className='location'><FontAwesomeIcon icon='map-marker-alt'/> Location: San Francisco Bay Area</p>
             </div>
           </div>
+          </Fade>
         </div>
       </div>
       </div>
