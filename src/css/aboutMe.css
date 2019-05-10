@@ -52,14 +52,11 @@
   margin-right: 6px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .about-me h1 {
     text-align: center;
   }
-}
-
-@media (max-width: 767px) {
-
+  
   .about-me {
     display: flex;
     flex-direction: column;

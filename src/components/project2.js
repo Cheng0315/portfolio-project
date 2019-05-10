@@ -16,12 +16,12 @@ class Project2 extends React.Component {
               <div className='project-info'>
                 <h3 className='ls-project-title text-center'>Swift-Kart</h3>
                 <p className='project-description'>E-commerce application where users can buy and sell items.</p>
-                <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth and Rails API.</p>
+                <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth, and Google Cloud.</p>
               </div>
               <div className='projects-links'>
-                <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm">Live Site</a>
-                <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm">Github</a>
-                <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
+                <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm"><span>Live Site</span></a>
+                <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm"><span>Github</span></a>
+                <a href='/' target="_blank" className="blog btn btn-sm"><span>Blog</span></a>
               </div>
             </div>
           </div>
@@ -32,12 +32,12 @@ class Project2 extends React.Component {
               <div className='project-info'>
                 <h3 className='text-center'>Swift-Kart</h3>
                 <p className='project-description'>E-commerce application where users can buy and sell items.</p>
-                <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, and OAuth.</p>
+                <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth, and Google Cloud.</p>
               </div>
               <div className='projects-links'>
-                <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm">Live Site</a>
-                <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm">Github</a>
-                <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
+                <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm"><span>Live Site</span></a>
+                <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm"><span>Github</span></a>
+                <a href='/' target="_blank" className="blog btn btn-sm"><span>Blog</span></a>
               </div>
             </div>
             <div className='project-img col-lg-5'>

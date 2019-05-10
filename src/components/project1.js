@@ -15,12 +15,12 @@ class Project1 extends React.Component {
             <div className='project-info'>
               <h3 className='ls-project-title text-center'>Ichiban</h3>
               <p>Restaurant web application where admins can create, read, update, and delete dishes.</p>
-              <p>Technologies used: React, Redux, Javascript, Rails API, HTML5, CSS3, Bootstrap 4, and Google Map API. </p>
+              <p>Technologies used: React, Redux, Javascript, Rails API, HTML5, CSS3, Bootstrap 4, Google Map API, and Google Cloud. </p>
             </div>
             <div className='projects-links'>
-              <a href='/' target="_blank" className="live-site btn btn-sm">Live Site</a>
-              <a href='https://github.com/Cheng0315/ichiban-fresno' target="_blank" className="github btn btn-sm">Github</a>
-              <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
+              <a href='/' target="_blank" className="live-site btn btn-sm"><span>Live Site</span></a>
+              <a href='https://github.com/Cheng0315/ichiban-fresno' target="_blank" className="github btn btn-sm"><span>Github</span></a>
+              <a href='/' target="_blank" className="blog btn btn-sm"><span>Blog</span></a>
             </div>
           </div>
         </div> 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../css/navBar.css' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -39,10 +40,10 @@ class NavBar extends React.Component {
           <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="#home">HOME</Nav.Link>
-              <Nav.Link href="#link">PROJECTS</Nav.Link>
-              <Nav.Link href="#home">SKILLS</Nav.Link>
-              <Nav.Link href="#link">CONTACT</Nav.Link>
+              <AnchorLink href='#intro' className='nav-link'>HOME</AnchorLink>
+              <AnchorLink href='#projects-container' offset='70' className='nav-link'>PROJECTS</AnchorLink>
+              <AnchorLink href='#technical-skills' offset='70' className='nav-link'>SKILLS</AnchorLink>
+              <AnchorLink href='#contact' offset='70' className='nav-link'>CONTACT</AnchorLink>
               <Nav.Link href="#link">RESUME</Nav.Link>
             </Nav>
           </Navbar.Collapse>

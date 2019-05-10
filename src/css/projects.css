@@ -35,17 +35,21 @@
 .project .btn {
   background-color: #ff0047;
   color: white !important;
-}
-
-.project .btn:hover {
-  background-color: white;
-  color: #ff0047 !important;
-  border: 1px solid #ff0047;
+  transition: 0.5s ease;
 }
 
 .projects-links {
   display: flex;
   margin-top: auto;
+}
+
+.projects-links .btn span:after {
+  font-size: 23px;
+  margin-top: -8px;
+}
+
+.projects-links .btn:hover span {
+  padding-right: 17px;
 }
 
 .projects-links a {
@@ -73,7 +77,6 @@
 .project p {
   font-size: 16px;
 }
-
 
 
 @media (max-width: 425px) {
@@ -104,8 +107,8 @@
     margin-top: 5px !important;
   }
 
-  .projects {
-    margin-top: 60px;
+  .projects-container {
+    padding-top: 60px;
   }
 
   .project {
@@ -153,8 +156,8 @@
     margin-bottom: 55px ;
   }
 
-  .projects {
-    margin-top: 60px;
+  .projects-container {
+    padding-top: 60px;
   }
 
   .project-3 {
@@ -191,8 +194,8 @@
     width: 120px !important;
   }
 
-  .projects {
-    margin-top: 100px;
+  .projects-container {
+    padding-top: 100px;
   }
 
   .project {

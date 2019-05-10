@@ -4,7 +4,7 @@ import '../css/skills.css'
 class Skills extends React.Component {
   render() {
     return (
-      <div className='technical-skills'>
+      <div id='technical-skills' className='technical-skills'>
         <div className='container'>
           <h1 className='skills-header'>Technical Skills</h1>
           <div className='title-hr'></div>

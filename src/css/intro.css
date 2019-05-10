@@ -1,19 +1,22 @@
-.intro-container img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; 
-  width: 100%;
-  filter: brightness(40%) blur(8px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(1.03);
-}
+
 
 .intro-container {
   overflow: hidden;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/27/19/00/coffee-1283672_960_720.jpg');
   height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-container:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.2);
 }
 
 .intro-container .intro-content{
@@ -28,4 +31,54 @@
   font-family: 'Roboto', sans-serif !important;
   font-weight: 700;
   font-size: 50px;
+}
+
+.intro-container .btn {
+  color: white;
+  background-color: #ff0047;
+  border-color: #ff0047;
+  transition: 0.5s ease;
+  width: 200px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.intro-content .btn span:after{
+  font-size: 33px;
+  margin-top: -17px;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.intro-container .btn:hover span {
+  padding-right: 24px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media (max-width: 576px) {
+  .intro-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-links .btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
 }

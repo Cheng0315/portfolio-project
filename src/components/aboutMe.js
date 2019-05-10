@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className='container'>
+      <div id='contact' className='container'>
       <div className='about-me-container'>
         <div className='about-me'>
           <div className='img-and-social'>
@@ -23,7 +23,7 @@ class AboutMe extends React.Component {
             </div>
           </div>
           <div className='about-me-info'>
-            <h1>About Me</h1>
+            <h1>About Cheng</h1>
             <p>Hello there! My name is Cheng Vue and I am a Full Stack Web Developer.</p>
             <p>I discovered web development through my interest in using music software such as Pro Tools and Ableton Live. 
               With experience in Ruby on Rails, JavaScript, 

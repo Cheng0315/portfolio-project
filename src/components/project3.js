@@ -18,9 +18,9 @@ class Project3 extends React.Component {
               <p>Technologies Used: Ruby, Sinatra, HTML5, CSS3, Bootstrap 4.</p>
             </div>
             <div className='projects-links'>
-              <a href='https://sinix-app.herokuapp.com/' target="_blank" className="live-site btn btn-sm">Live Site</a>
-              <a href='https://github.com/Cheng0315/sinix' target="_blank" className="github btn btn-sm">Github</a>
-              <a href='/' target="_blank" className="blog btn btn-sm">Blog</a>
+              <a href='https://sinix-app.herokuapp.com/' target="_blank" className="live-site btn btn-sm"><span>Live Site</span></a>
+              <a href='https://github.com/Cheng0315/sinix' target="_blank" className="github btn btn-sm"><span>Github</span></a>
+              <a href='/' target="_blank" className="blog btn btn-sm"><span>Blog</span></a>
             </div>
           </div>
         </div> 
