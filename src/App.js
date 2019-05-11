@@ -5,19 +5,43 @@ import ProjectsContainer from './containers/projectsContainer'
 import Skills from './components/skills'
 import AboutMe from './components/aboutMe'
 import Footer from './components/footer'
+import SidePanel from './components/sidePanel'
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, faBars } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, fab)
+library.add(faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, fab, faBars)
 
 class App extends React.Component {
+  state = {
+    sidePanelOpen: false
+  }
+
+  sidePanelClickHandler = () => {
+    this.setState((prevState) => {
+      return {sidePanelOpen: !prevState.sidePanelOpen}
+    })
+  }
+
+  closeSidePanel = () => {
+    this.setState({
+      sidePanelOpen: false
+    })
+  }
+
   render() {
+    let backdrop;
+
+    if (this.state.sidePanelOpen) {
+      backdrop = <div className='backdrop' onClick={this.closeSidePanel}/>
+    }
+
     return (
       <div id="app">
-        <div id='space'></div>
-        <NavBar/>
+        <NavBar sidePanelClickHandler={this.sidePanelClickHandler}/>
+        <SidePanel show={this.state.sidePanelOpen} closeSidePanel={this.closeSidePanel}/>
+        {backdrop}
         <Intro/>
         <ProjectsContainer/>
         <Skills/>

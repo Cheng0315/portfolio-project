@@ -20,7 +20,7 @@ class NavBar extends React.Component {
       }
     });
   }
-  
+
   render() {
     let navbarColor = 'fixed-top navbar-transparent';
 
@@ -38,23 +38,23 @@ class NavBar extends React.Component {
               <div className='title'>FULL STACK WEB DEVELOPER</div>
             </a>
           </div>
-          <Navbar.Toggle className="custom-toggler" aria-controls="basic-navbar-nav" />
+          <FontAwesomeIcon icon="bars" size="2x" onClick={this.props.sidePanelClickHandler}/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Fade top distance={'25px'}> 
                 <AnchorLink href='#intro' className='nav-link'>HOME</AnchorLink>
               </Fade>
               <Fade top delay={100} distance={'25px'}> 
-                <AnchorLink href='#projects-container' offset='70' className='nav-link'>PROJECTS</AnchorLink>
+                <AnchorLink href='#projects-container' className='nav-link' offset='70'>PROJECTS</AnchorLink>
               </Fade>
               <Fade top delay={200} distance={'25px'}> 
-                <AnchorLink href='#technical-skills' offset='70' className='nav-link'>SKILLS</AnchorLink>
+                <AnchorLink href='#technical-skills' className='nav-link' offset='70'>SKILLS</AnchorLink>
               </Fade>
               <Fade top delay={300} distance={'25px'}> 
-                <AnchorLink href='#contact' offset='70' className='nav-link'>CONTACT</AnchorLink>
+                <AnchorLink href='#contact' className='nav-link' offset='70'>CONTACT</AnchorLink>
               </Fade>
               <Fade top delay={400} distance={'25px'}> 
-                <Nav.Link href="#link">RESUME</Nav.Link>
+                <Nav.Link href="#link" className='nav-link'>RESUME</Nav.Link>
               </Fade>
             </Nav>
           </Navbar.Collapse>
