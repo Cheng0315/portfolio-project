@@ -7,11 +7,9 @@ class Footer extends React.Component {
     const year = new Date().getFullYear()
 
     return (
-      <footer className='footer'>
         <Fade bottom duration={1000} distance={'10px'}>
           <div className="text-center">&copy; {year} Cheng Vue</div>
         </Fade>
-      </footer>
     )
   }
 }

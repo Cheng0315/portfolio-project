@@ -30,9 +30,13 @@ class App extends React.Component {
     })
   }
 
+  componentDidMount = () => {
+    console.log("If you can see this, you're awesome!!!")
+  }
+
   render() {
     let backdrop;
-
+    
     if (this.state.sidePanelOpen) {
       backdrop = <div className='backdrop' onClick={this.closeSidePanel}/>
     }
@@ -41,12 +45,18 @@ class App extends React.Component {
       <div id="app">
         <NavBar sidePanelClickHandler={this.sidePanelClickHandler}/>
         <SidePanel show={this.state.sidePanelOpen} closeSidePanel={this.closeSidePanel}/>
-        {backdrop}
-        <Intro/>
-        <ProjectsContainer/>
-        <Skills/>
-        <AboutMe/>
-        <Footer/>
+        <header>
+          <Intro/>
+        </header>
+        <main>
+          {backdrop}
+          <ProjectsContainer/>
+          <Skills/>
+          <AboutMe/>
+        </main>
+        <footer>
+          <Footer/>
+        </footer>
       </div>
     );
   }

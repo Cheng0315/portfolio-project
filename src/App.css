@@ -1,6 +1,5 @@
-html, body, #app, #root{
+html, body, #app, #root, header{
   height: 100%;
-  margin: 0;
 }
 
 .projects, .about-me h1,  .technical-skills h6, .technical-skills h1, .project h3, .about-me h1{
@@ -17,7 +16,7 @@ html, body, #app, #root{
 
 
 @media (max-width: 767px) {
-  html, body, #app, #root, .intro-container {
+  html, body, #app, #root, .intro-container, header {
     min-height: 700px;
   }
   

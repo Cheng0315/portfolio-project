@@ -9,7 +9,7 @@ class ProjectContainer extends React.Component {
   
   render() {
     return (
-      <div id='projects-container' className='projects-container'>
+      <section id='projects-container' className='projects-container container'>
         <Fade bottom delay={400}>
           <h1 className='projects'>Technical Projects</h1>
         </Fade>
@@ -19,7 +19,7 @@ class ProjectContainer extends React.Component {
         <Project2/>
         <HR/>
         <Project3/>
-      </div>
+      </section>
     )
   }
 }

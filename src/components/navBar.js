@@ -29,7 +29,7 @@ class NavBar extends React.Component {
     }
 
     return (
-      <Navbar bg="dark" expand="lg" className={navbarColor}>
+      <Navbar expand="lg" className={navbarColor}>
         <div className='container'>
           <div className='navbar-brand'>
             <a href="/" className='navbar-icon'><FontAwesomeIcon icon="code-branch" size="3x"/></a>
