@@ -19,10 +19,11 @@ class AboutMe extends React.Component {
                 <a href='https://github.com/Cheng0315' target='_blank' rel="noopener noreferrer">
                   <FontAwesomeIcon icon={['fab', 'github']} size="2x"/>
                 </a>
-                <a href='/' target='_blank' rel="noopener noreferrer">
+                <a href='http://chengvue.net' target='_blank' rel="noopener noreferrer">
                   <FontAwesomeIcon icon={['fab', 'blogger']} size="2x"/>
                 </a>
               </div>
+              <a href='/' className='btn btn-sm'><span>Resume</span></a>
             </div>
             </Fade>
             <Fade right cascade delay={400} duration={700} distance={'10px'}>

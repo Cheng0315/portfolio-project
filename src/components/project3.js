@@ -19,7 +19,7 @@ class Project3 extends React.Component {
               <div className='project-info'>
                 <h3 className='ls-project-title text-center'>Sinix</h3>
                 <p className='project-description'>Web application that generates the structures of a Sinatra web application.</p>
-                <p>Technologies Used: Ruby, Sinatra, HTML5, CSS3, Bootstrap 4.</p>
+                <p>Technologies Used: Ruby, Sinatra, HTML5, CSS3, and Bootstrap 4.</p>
               </div>
               <div className='projects-links'>
                 <a href='https://sinix-app.herokuapp.com/' target="_blank" className="live-site btn btn-sm" rel="noopener noreferrer"><span>Live Site</span></a>

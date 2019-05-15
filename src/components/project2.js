@@ -20,7 +20,7 @@ class Project2 extends React.Component {
                 <div className='project-info'>
                   <h3 className='ls-project-title text-center'>Swift-Kart</h3>
                   <p className='project-description'>E-commerce application where users can buy and sell items.</p>
-                  <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth, and Google Cloud.</p>
+                  <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth, and Google Cloud Storage.</p>
                 </div>
                 <div className='projects-links'>
                   <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm" rel="noopener noreferrer"><span>Live Site</span></a>
@@ -38,7 +38,7 @@ class Project2 extends React.Component {
                 <div className='project-info'>
                   <h3 className='text-center'>Swift-Kart</h3>
                   <p className='project-description'>E-commerce application where users can buy and sell items.</p>
-                  <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth, and Google Cloud.</p>
+                  <p>Technologies used: Ruby on Rails, Javascript, HTML5, CSS3, jQuery, Bootstrap 4, Handlebars, MVC, OAuth, and Google Cloud Storage.</p>
                 </div>
                 <div className='projects-links'>
                   <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm" rel="noopener noreferrer"><span>Live Site</span></a>

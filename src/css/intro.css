@@ -69,6 +69,23 @@
   right: 0;
 }
 
+.down-arrow-link {
+  display: inline-block;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.down-arrow-link .fa-angle-down {
+  color: white;
+  transition: 0.1s ease;
+}
+
+.down-arrow-link .fa-angle-down:hover {
+  color: rgb(212, 212, 212)
+}
+
 @media (max-width: 576px) {
   .intro-links {
     display: flex;
@@ -78,6 +95,12 @@
   .intro-links .btn {
     width: 100%;
     margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .down-arrow-link {
+    display: none;
   }
 }
 

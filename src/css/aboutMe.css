@@ -52,6 +52,24 @@
   margin-right: 6px;
 }
 
+
+.img-and-social .btn {
+  background-color: #ff0047;
+  color: white !important;
+  transition: 0.5s ease;
+  width: 141px;
+  margin-top: 10px;
+}
+
+.img-and-social .btn span:after{
+  font-size: 23px;
+  margin-top: -8px;
+}
+
+.img-and-social .btn:hover span{
+  padding-right: 17px;
+}
+
 @media (max-width: 767px) {
   .about-me h1 {
     text-align: center;

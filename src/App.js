@@ -8,10 +8,10 @@ import Footer from './components/footer'
 import SidePanel from './components/sidePanel'
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, faBars, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, fab, faBars)
+library.add(faCodeBranch, faMapMarkerAlt, faEnvelope, faPhone, fab, faBars, faAngleDown)
 
 class App extends React.Component {
   state = {
