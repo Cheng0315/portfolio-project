@@ -3,7 +3,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import '../css/intro.css' 
 import Fade from 'react-reveal/Fade';
 import Swing from 'react-reveal/Swing';
-import Bounce from 'react-reveal/Swing';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Intro extends React.Component {
@@ -12,19 +11,16 @@ class Intro extends React.Component {
       <div id='intro' className='intro-container'>
         <div className='intro-content container'>
           <Fade left duration={1400} distance={'50px'}> 
-            <h1>Full Stack Web Developer</h1>
+            <h1>Cheng Vue</h1>
           </Fade>
           <Fade bottom duration={1300} distance={'50px'}> 
-            <p>Full Stack Web Developer with a passion for building functional, innovative and 
-              user friendly web application. With experience in Ruby on Rails, JavaScript, 
-              and React and a background in music education, I discovered we
+            <p>Full stack web developer with a passion for building functional, innovative and user-friendly web applications. 
+              Excited about team-building, project management, and refining projects' details to further advance company objectives.
             </p>
             <div className='intro-links'>
-              <AnchorLink href='#contact' offset='70' className='btn btn-md'><span>Find out more</span></AnchorLink> <a href='/' className='btn btn-md'><span>Resume</span></a>
-              
+              <AnchorLink href='#contact' offset='70' className='btn btn-md'><span>Find out more</span></AnchorLink> <a href='https://learn.co/cheng-vue-0315/resume' target='_blank' rel="noopener noreferrer" className='btn btn-md'><span>Resume</span></a>
             </div>
           </Fade>
-          
         </div>
         <div className='down-arrow-link'>
         <Fade top distance='30px'>

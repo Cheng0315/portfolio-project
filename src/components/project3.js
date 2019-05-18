@@ -24,7 +24,7 @@ class Project3 extends React.Component {
               <div className='projects-links'>
                 <a href='https://sinix-app.herokuapp.com/' target="_blank" className="live-site btn btn-sm" rel="noopener noreferrer"><span>Live Site</span></a>
                 <a href='https://github.com/Cheng0315/sinix' target="_blank" className="github btn btn-sm" rel="noopener noreferrer"><span>Github</span></a>
-                <a href='/' target="_blank" className="blog btn btn-sm"><span>Blog</span></a>
+                <a href='https://medium.com/@csalvue/personal-project-sinix-eaaf87dd9947' target="_blank" rel="noopener noreferrer" className="blog btn btn-sm"><span>Blog</span></a>
               </div>
             </div>
           </Fade>

@@ -25,7 +25,7 @@ class Project2 extends React.Component {
                 <div className='projects-links'>
                   <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm" rel="noopener noreferrer"><span>Live Site</span></a>
                   <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm" rel="noopener noreferrer"><span>Github</span></a>
-                  <a href='/' target="_blank" className="blog btn btn-sm" rel="noopener noreferrer"><span>Blog</span></a>
+                  <a href='https://medium.com/@csalvue/personal-project-swift-kart-dae168771aa7' target="_blank" className="blog btn btn-sm" rel="noopener noreferrer"><span>Blog</span></a>
                 </div>
               </div>
             </Fade>
@@ -43,7 +43,7 @@ class Project2 extends React.Component {
                 <div className='projects-links'>
                   <a href='https://swift-kart-app.herokuapp.com' target="_blank" className="live-site btn btn-sm" rel="noopener noreferrer"><span>Live Site</span></a>
                   <a href='https://github.com/Cheng0315/swift-kart' target="_blank" className="github btn btn-sm" rel="noopener noreferrer"><span>Github</span></a>
-                  <a href='/' target="_blank" className="blog btn btn-sm"><span>Blog</span></a>
+                  <a href='https://medium.com/@csalvue/personal-project-swift-kart-dae168771aa7' target="_blank" rel="noopener noreferrer" className="blog btn btn-sm"><span>Blog</span></a>
                 </div>
               </div>
             </Fade>

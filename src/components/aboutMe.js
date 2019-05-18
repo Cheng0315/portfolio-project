@@ -23,17 +23,14 @@ class AboutMe extends React.Component {
                   <FontAwesomeIcon icon={['fab', 'blogger']} size="2x"/>
                 </a>
               </div>
-              <a href='/' className='btn btn-sm'><span>Resume</span></a>
+              <a href='https://learn.co/cheng-vue-0315/resume' target='_blank' rel="noopener noreferrer" className='btn btn-sm'><span>Resume</span></a>
             </div>
             </Fade>
             <Fade right cascade delay={400} duration={700} distance={'10px'}>
             <div className='about-me-info'>
-              <h1>About Cheng</h1>
-              <p>Hello there! My name is Cheng Vue and I am a Full Stack Web Developer.</p>
-              <p>I discovered web development through my interest in using music software such as Pro Tools and Ableton Live. 
-                With experience in Ruby on Rails, JavaScript, 
-                and React, I enjoy building functional, innovative and user friendly web application for clients.</p>
-              <p>Nowadays I code all my projects from scratch to deliver unique experiences to every company.</p>
+              <p>Hi there! My name is Cheng Vue and I am a fullstack web developer.</p>
+              <p>Building things has always been a passion of mine since when I was a child. I love </p>
+              <p>Nowadays I code all my projects from scratch to deliver a unique experiences to every company.</p>
               <p>Like many other people, I enjoy spending my free time learning new technologies and 
                 increasing my knowledge of Web Development as well as building new and challenging projects.
               </p>

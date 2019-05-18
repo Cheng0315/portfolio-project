@@ -54,7 +54,7 @@ class NavBar extends React.Component {
                 <AnchorLink href='#contact' className='nav-link' offset='70'>CONTACT</AnchorLink>
               </Fade>
               <Fade top delay={400} distance={'25px'}> 
-                <Nav.Link href="#link" className='nav-link'>RESUME</Nav.Link>
+                <Nav.Link href="https://learn.co/cheng-vue-0315/resume" target='_blank' rel="noopener noreferrer" className='nav-link'>RESUME</Nav.Link>
               </Fade>
             </Nav>
           </Navbar.Collapse>
