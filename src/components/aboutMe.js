@@ -28,12 +28,11 @@ class AboutMe extends React.Component {
             </Fade>
             <Fade right cascade delay={400} duration={700} distance={'10px'}>
             <div className='about-me-info'>
-              <p>Hi there! My name is Cheng Vue and I am a fullstack web developer.</p>
-              <p>Building things has always been a passion of mine since when I was a child. I love </p>
-              <p>Nowadays I code all my projects from scratch to deliver a unique experiences to every company.</p>
-              <p>Like many other people, I enjoy spending my free time learning new technologies and 
-                increasing my knowledge of Web Development as well as building new and challenging projects.
-              </p>
+              <h1>About Me</h1>
+              <p>I'm a full stack web developer based in the San Francisco Bay Area.
+                I enjoy turning complex problems into simple, beautiful and easy to read code. 
+                When not coding, you'll find me cooking, playing the guitar or jogging in the park.</p>
+              <p>Interested in working together? We should queue up a chat. I'll buy the coffee.</p>
               <div className='contact'>
                 <h1>Contact</h1>
                   <p className='phone'><FontAwesomeIcon icon='phone' className='fa-rotate-90'/>  Phone: (559) 286-6435</p>

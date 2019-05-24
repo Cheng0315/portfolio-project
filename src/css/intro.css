@@ -37,6 +37,7 @@
   border-color: #ff0047;
   transition: 0.5s ease;
   width: 200px;
+  margin-right: 1px;
 }
 
 .btn span {
