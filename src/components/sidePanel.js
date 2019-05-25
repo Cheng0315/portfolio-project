@@ -37,7 +37,7 @@ class SidePanel extends React.Component {
             <AnchorLink href='#contact'  onClick={this.props.closeSidePanel} offset='70'>CONTACT</AnchorLink>
           </Fade>
           <Fade left delay={400} distance={'25px'}> 
-            <div><a href="#link"onClick={this.props.closeSidePanel} >RESUME</a></div>
+            <div><a href="https://learn.co/cheng-vue-0315/resume" target='_blank' rel="noopener noreferrer" onClick={this.props.closeSidePanel} >RESUME</a></div>
           </Fade>
         </div>
       </nav>
